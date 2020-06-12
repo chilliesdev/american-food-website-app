@@ -575,13 +575,18 @@ footer{
     height: 420px;
   }
 
-  @media screen and (min-width: 1000px){
-    .contact{
-      height: 450px;
-    }
+  footer{
+    margin: auto;
+    width: 75%;
+  }
+}
 
-    form{
-      margin-top: 3rem;
-    }
+@media screen and (min-width: 1000px){
+  .contact{
+    height: 450px;
+  }
+
+  form{
+    margin-top: 3rem;
   }
 }
